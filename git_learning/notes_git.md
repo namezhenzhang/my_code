@@ -69,6 +69,7 @@
 	
 5. 提交操作
 	git commit -m "commit message" <filename>
+  新建文件需要add，之后只需commit
 
 6. 版本记录
 
@@ -137,3 +138,16 @@
 	2. 长度固定
 	3. 小修改大变化
 	4. 相同数据加密结果相同
+
+## 创建远程库
+
+1. git remote add <name> <url>
+	```git
+	git remote add https://github.com/namezhenzhang/huashan.git
+	```
+2. git clone <url>
+
+3. git push <url> <branch>
+
+4. pull = fetch + merge
+	git fetch <远程库地址别名> <远程分支名>
